@@ -1,6 +1,6 @@
 const axios = require('axios');
 const moment = require("moment-timezone");
-const { zokou } = require(__dirname + "/../framework/zokou"); // Updated: Ibrahim → framework, adams → zokou
+const { zokou } = require(__dirname + "/../framework/zokou");
 
 // Function to format large numbers with commas
 const formatNumber = (num) => num.toLocaleString();
@@ -8,7 +8,7 @@ const formatNumber = (num) => num.toLocaleString();
 // Function to fetch detailed GitHub repository information
 const fetchGitHubRepoDetails = async () => {
     try {
-        const repo = 'patel874/KHAN_PATEL-MD'; // Updated repo
+        const repo = 'Milimo-seeker/Milimo-seeker'; // Updated repo
         const response = await axios.get(`https://api.github.com/repos/${repo}`);
         const {
             name, description, forks_count, stargazers_count,
@@ -70,8 +70,8 @@ commands.forEach((command) => {
         try {
             // Send the follow-up image first with a caption
             await zk.sendMessage(dest, {
-                image: { url: "https://files.catbox.moe/pibkby.jpg" }, // Updated image URL
-                caption: `✨ Repository Highlights ✨\n\n🛠️ Developed by *KHAN_PATEL-MD *\n\nRepo Url\nhttps://github.com/patel874/KHAN_PATEL-MD`,
+                image: { url: "https://files.catbox.moe/uyfl80.jpg" }, // Updated image URL
+                caption: `✨ Repository Highlights ✨\n\n🛠️ Developed by *Milimo-seeker*\n\nRepo URL:\nhttps://github.com/Milimo-seeker/Milimo-seeker`,
             });
 
             // Follow up with the GitHub repository details
