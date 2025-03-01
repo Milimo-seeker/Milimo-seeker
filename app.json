@@ -2,7 +2,7 @@
   "name":"KHAN_PATEL-MD",
   "description":"Best whatsapp bot developed by Ibrahim adams",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://files.catbox.moe/pibkby.jpg",
+  "logo":"https://files.catbox.moe/uyfl80.jpg",
   "repository":"https://github.com/ekitale/maths-project",
   "succes_url":"/",
   "stack":"heroku-24",
@@ -66,14 +66,14 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"KHAN_PATEL-MD",
+      "value":"Milimo-seeker",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://files.catbox.moe/pibkby.jpg",
+      "value":"https://files.catbox.moe/uyfl80.jpg",
       "required":false
        
      },
@@ -105,7 +105,7 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "KHAN_PATEL-MD"
+    "value": "Milimo-seeker"
   },
     "NUMERO_OWNER":
   {
